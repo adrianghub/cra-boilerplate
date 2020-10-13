@@ -1,14 +1,13 @@
 export const initialState = {
-  placeStateHere: '',
+  counter: 0,
 }
 
 // state -> anything inside of reducer, action -> manipulating the data layer
 export default function reducer(state, action) {
   switch(action.type) {
-    case 'ADD_STATE':
-      // Logic for adding desired state
-      break;
-    case 'REMOVE_FROM_BASKET':
+    case 'INCREASE_NUMBER':
+      return { ...state, counter: state.counter + 1 };
+    case 'DECREASE_NUMBER':
       // Logic for removing desired state
       break;
     default:

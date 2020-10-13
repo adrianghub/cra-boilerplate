@@ -4,4 +4,4 @@
 
 ## Installation
 
-Easily click the button named `Use this template` in the top right corner. Enjoy :octocat:
+Easily smash that green button named `Use this template` in the top right corner. Enjoy :octocat:

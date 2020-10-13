@@ -18,6 +18,7 @@ const useStyles = makeStyles({
 
 const Btn = () => {
   const classes = useStyles();
+  // eslint-disable-next-line
   const [{}, dispatch] = useStateValue();
 
   const incCounterNumber = () => {
